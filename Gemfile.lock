@@ -45,6 +45,8 @@ GEM
     arel (9.0.0)
     bootsnap (1.4.8)
       msgpack (~> 1.0)
+    braintree (2.103.0)
+      builder (>= 2.0.0)
     builder (3.2.4)
     byebug (11.1.3)
     concurrent-ruby (1.1.7)
@@ -140,6 +142,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap (>= 1.1.0)
+  braintree (~> 2.103)
   byebug
   dotenv-rails
   jwt
